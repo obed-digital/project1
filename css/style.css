@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: dimgray;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+footer {
+    background-color: dimgray;
+    padding: 30px 20px;
+}
+
+#about {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+}
+
+#articles {
+    background-color: darkorange;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+}
