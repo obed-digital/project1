@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+html {
+    font-size: 1em;
+    font-family: "PT Sans", sans-serif;
+}
+
 header {
     background-color: dimgray;
     text-align: center;
@@ -13,6 +18,7 @@ header {
 footer {
     background-color: dimgray;
     padding: 30px 20px;
+    text-align: center;
 }
 
 #about {
@@ -24,13 +30,25 @@ footer {
 #articles {
     background-color: darkorange;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 p {
     text-align: justify;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    margin-bottom: 3rem;
 }
 
 h2 {
     text-align: center;
+    font-size: 1.5rem;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
 }
