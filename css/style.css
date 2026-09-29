@@ -9,39 +9,59 @@ html {
 }
 
 header {
-    background-color: rgb(165, 179, 180);
+    background-color: rgb(156, 156, 156);
     text-align: center;
     padding-top: 20px;
     padding-bottom: 40px;
 }
 
 footer {
-    background-color: rgb(116, 116, 122);
-    padding: 30px 20px;
+    background-color: rgb(121, 119, 119);
+    padding: 100px 100px;
     text-align: center;
 }
 
 #about {
-    background-color: rgb(132, 141, 140) ;
+    background-color: rgb(109, 103, 103);
     padding: 20px;
     text-align: center;
 }
 
-#articles {
-    background-color: rgb(106, 112, 112);
-    padding: 20px;
-    text-align: left;
+#img {
+    background-color: rgb(80, 79, 79);
+    padding: 3px;
 }
 
+#articles {
+    background-color: rgb(109, 109, 109);
+    padding: 20px;
+    text-align: center;
+}
+
+#Biography {
+    background-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+#Achiviements {
+    background-color: rgb(126, 125, 125);
+    text-align: center;
+    padding: 20px;
+    list-style: none;
+    gap: 30px;
+}
+
+#Facts
+
 P {
-    text-align: left;
+    text-align: center;
 }
 
 p {
     text-align: center;
-    font-size: 1.2rem;
-    line-height: 2.4rem;
-    margin-bottom: 3rem;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    margin-bottom: 0.9rem;
 }
 
 h2 {
@@ -70,4 +90,9 @@ dt {
 
 dd {
     text-align: center;
+}
+
+center {
+    padding: 20px;
+    font-size: 2em;
 }
