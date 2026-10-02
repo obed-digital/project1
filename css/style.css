@@ -96,3 +96,52 @@ center {
     padding: 20px;
     font-size: 2em;
 }
+
+a:visited {
+    color: darkblue
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+a:focus {
+    color: green;
+    transform: scale(1.2);
+}
+
+a:active {
+    color: red;
+}
+
+a:link {
+    color: purple;
+}
+
+nav a {
+    color: purple;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+#articles li:nth-child(odd) {
+    background-color: aqua;
+}
+
+h2::before {
+    content: " wtf ";
+    font-size: 12px;
+    margin-left: 10px;
+    color: red;
+}
+
+.bi-square-fill {
+    color: red;
+}
+
+#articles a::after {
+    content: "\F12F";
+    font-family: "bootstrap-icons";
+}
