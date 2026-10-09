@@ -145,3 +145,46 @@ h2::before {
     content: "\F12F";
     font-family: "bootstrap-icons";
 }
+
+/*---верстка формы---*/
+
+.form-reg {
+    width: 120px;
+    margin: 20px auto;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+input {
+    background-color: lavender;
+    border: blue 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    color: darkblue;
+}
+
+input[type=submit] {
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    accent-color: blue;
+}
+
+select {
+    width: 120px;
+}
+
+textarea {
+    width: 100px;
+}
+

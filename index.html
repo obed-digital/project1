@@ -21,6 +21,7 @@
             <ul>
                 <li><a href="#about">Введение</a></li>
                 <li><a href="#articles">Информация</a></li>
+                <li><a href="#registration">Регистрация</a></li>
             </ul>
         </nav>
     </header>
@@ -49,6 +50,28 @@
                 <li><a href="Facts.html">Интересные факты</a></li> <i class="bi bi-square-fill"></i>
                 <li><a href="Terms.html">Список терминов</a></li> <i class="bi bi-square-fill"></i>
             </ol>
+        </section>
+        <section id="registration">
+            <h2>Регистрация</h2>
+            <form class="form-reg" action="">
+                <label for="login">Введите логин</label><br>
+                <input type="text" id="login" name="login" placeholder="Логин" required><br>
+                <label for="pass">Введите пароль</label><br>
+                <input type="password" id="pass" name="pass" placeholder="Пароль" required><br>
+                <label for="city">Выберите город</label>
+                <select name="city" id="city">
+                    <option value="" disabled selected>Выберите город</option>
+                    <option value="chel">Челябинск</option>
+                    <option value="mos">Москва</option>
+                    <option value="sar">Саратов</option>
+                </select><br>
+                <label for="comment">Введите комментарий</label><br>
+                <textarea name="comment" id="comment" placeholder="Комментарий" rows="5" cols="20"></textarea>
+                <input type="checkbox" id="agreement" name="agreement" required>
+                <label for="agreement">Согласие на обработку персональных данных</label>
+                <input type="submit" value="Зарегистрироваться"><br>
+                <input type="reset">
+            </form>
         </section>
     </main>
     <footer>
