@@ -17,14 +17,37 @@ header {
 
 footer {
     background-color: rgb(121, 119, 119);
-    padding: 100px 100px;
+    padding: 200px 100px;
     text-align: center;
+    border: 12px;
+    border-style: groove;
+    border-color: rgb(75, 221, 221);
 }
 
 #about {
     background-color: rgb(109, 103, 103);
     padding: 20px;
     text-align: center;
+}
+
+#about p::first-line {
+    letter-spacing: 2px;
+}
+
+#Achiviements p::first-line {
+    letter-spacing: 2px;
+}
+
+#Biography p::first-line {
+    letter-spacing: 2px;
+}
+
+#Facts p::first-line {
+    letter-spacing: 2px;
+}
+
+#Terms p::first-line {
+    letter-spacing: 2px;
 }
 
 #img {
@@ -51,7 +74,25 @@ footer {
     gap: 30px;
 }
 
-#Facts
+#Facts {
+    background-color: rgb(126, 125, 125);
+    text-align: center;
+    padding: 20px;
+    list-style: none;
+    gap: 30px;
+}
+
+#Terms {
+    background-color: rgb(126, 125, 125);
+    text-align: center;
+    padding: 20px;
+    list-style: none;
+    gap: 30px;
+}
+
+p:lang(en) {
+    font-size: 16px;
+}
 
 P {
     text-align: center;
@@ -67,7 +108,15 @@ p {
 h2 {
     text-align: center;
     font-size: 1.5rem;
+    font-family: "Serif", serif;
+    color: black;
+}
 
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Serif", serif;
+    color: black;
 }
 
 nav ul {
@@ -101,6 +150,14 @@ a:visited {
     color: darkblue
 }
 
+a:active {
+    color: red;
+}
+
+a:link {
+    color: purple;
+}
+
 a:hover {
     color: yellow;
     text-decoration: underline;
@@ -109,14 +166,6 @@ a:hover {
 a:focus {
     color: green;
     transform: scale(1.2);
-}
-
-a:active {
-    color: red;
-}
-
-a:link {
-    color: purple;
 }
 
 nav a {
@@ -130,8 +179,9 @@ nav a {
     background-color: aqua;
 }
 
-h2::before {
-    content: " wtf ";
+.bi-square-fill::after {
+    content: " New! ";
+    align-content: center;
     font-size: 12px;
     margin-left: 10px;
     color: red;
@@ -187,4 +237,3 @@ select {
 textarea {
     width: 100px;
 }
-
