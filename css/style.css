@@ -54,7 +54,6 @@ footer {
     background-color: rgb(80, 79, 79);
     padding: 3px;
 }
-
 #articles {
     background-color: rgb(109, 109, 109);
     padding: 20px;
@@ -92,6 +91,12 @@ footer {
 
 p:lang(en) {
     font-size: 16px;
+    font-family: "Serif", serif;
+}
+
+p:lang(ru) {
+    font-size: 16px;
+    font-family: "PT Sans", sans-serif;
 }
 
 P {
@@ -110,9 +115,17 @@ h2 {
     font-size: 1.5rem;
     font-family: "Serif", serif;
     color: black;
+    text-decoration: underline;
+    text-transform: none;
+    font-weight: 100;
+    font-style: italic;
 }
 
 h1 {
+    text-decoration: underline;
+    text-transform: none;
+    font-weight: 100;
+    font-style:italic;
     text-align: center;
     font-size: 1.5rem;
     font-family: "Serif", serif;
@@ -236,4 +249,8 @@ select {
 
 textarea {
     width: 100px;
+}
+
+h2 + p {
+    margin-top: 20px;
 }
